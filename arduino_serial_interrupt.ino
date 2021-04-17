@@ -6,10 +6,10 @@ void setup() {
    // put your main code here, to run repeatedly:
  }
 void serialEvent() {
-   int recived_var_int;
-   float recived_var_float;
-   String recived_var_string;
-   unsigned short body_id = ATFMessageService(&recived_var_int, &recived_var_float, &recived_var_string);
+   int received_var_int;
+   float received_var_float;
+   String received_var_string;
+   unsigned short body_id = ATFMessageService(&received_var_int, &received_var_float, &received_var_string);
    //Handle the returned data here or you can store the data and handle it later in the main loop.
 }
 unsigned short ATFMessageService(int *m_ReciverVarInt, float *m_ReciverVarFloat, String *m_ReciverVarString)
