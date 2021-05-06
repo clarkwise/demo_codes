@@ -10,6 +10,7 @@ We are **clarkwise**, professional touch screen module for embedded system like 
 # Tutorial links
 
  1. [clarkwise Arduino touch screen 101: make it work for the very first time](https://clarkwise.cc/tutorial/clarkwise-arduino-touch-screen-101-make-it-work-for-the-very-first-time/)
+ 2. [Tutorial 03 – Slider Bar NumInput and Toggle Button](https://clarkwise.cc/tutorial/tutorial-03-slider-bar-numinput-and-toggle-button/)
 
 # Product link
 [clarkwise Arduino touch screen](https://clarkwise.cc/product/arduino-touchscreen/)
