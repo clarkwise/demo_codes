@@ -6,6 +6,7 @@ We are **clarkwise**, professional touch screen module for embedded system like 
 # Demo links
 
  1. [Waveform and progress bar demo](https://clarkwise.cc/demo/clarkwise-arduino-touch-screen-waveform-and-progress-bar-demo/)
+ 2. [ESP8266 AHT10 clarkwise touch screen - get temperature and humidity](https://clarkwise.cc/demo/smart-living-room-reading-aht10-temperature-humidity-esp8266-clarkwise-touch-screen/)
 
 # Tutorial links
 
