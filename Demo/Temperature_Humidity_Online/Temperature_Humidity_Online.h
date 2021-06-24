@@ -52,7 +52,7 @@ public:
   uint16_t ctrlID_current_uvi = 107;
 
   //OpenWeatherMap API Key
-  String OWM_API = "6de2c62f3771c3b7d93e2f4a0220b606"; //Your OpenWeatherMap API key here
+  String OWM_API = "your-api-key"; //Your OpenWeatherMap API key here
 
   //position
   float lat;

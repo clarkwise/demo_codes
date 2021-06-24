@@ -2,8 +2,8 @@
 #include "Temperature_Humidity_Online.h"
 
 // Replace with your SSID and password details
-const char * ssid = "CLARKMU";
-const char * pass = "18622198941"; 
+const char * ssid = "your-ssid";
+const char * pass = "your-password"; 
 
 TimerEvent weatherUpdater;
 Clarkwise_temp_online cwtemp;

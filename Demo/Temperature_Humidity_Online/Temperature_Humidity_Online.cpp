@@ -47,6 +47,7 @@ void Clarkwise_temp_online::update_weather(){
 	const char* current_weather_0_icon = current_weather_0["icon"];
 
 	//Update controls
+  Serial.println("@GUIS 0"); //Clear all up
 	Serial.printf("@SET %d,%.1fC\n", this->ctrlID_current_temp, current_temp);
 	
 	time_t t = current_dt;
@@ -84,7 +85,7 @@ void Clarkwise_temp_online::update_weather(){
 		}
 		dayNum++;
 	}
-	Serial.printf("@SET %d,Weather updated.", this->ctrlID_status_display);
+	Serial.printf("@SET %d,Weather updated.\n", this->ctrlID_status_display);
 }
 
 void Clarkwise_temp_online::where_am_i(){
